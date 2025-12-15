@@ -85,9 +85,9 @@ public class MovementController {
 
         movement.setCreationDate(new Date());
         movement.setModificationDate(new Date());
-        movement.setTypeTransaction("Transfer");
-//        movement.setFlagDebit(true); VERIFICAR SI VA A IR
-//        movement.setFlagCredit(false); VERIFICAR SI VA A IR
+//        movement.setTypeTransaction("Transfer");
+//        movement.setFlagDebit(true); //VERIFICAR SI VA A IR
+//        movement.setFlagCredit(false); //VERIFICAR SI VA A IR
 
         LOGGER.info("Saving transfer origin {}", movement);
 
