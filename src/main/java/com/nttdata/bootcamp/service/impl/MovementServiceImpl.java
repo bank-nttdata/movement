@@ -79,7 +79,6 @@ public class MovementServiceImpl implements MovementService {
                         ))
                 )
                 .flatMap(existing -> {
-
                     // Copiar valores NO editables desde el registro original
                     dataMovement.setDni(existing.getDni());
                     dataMovement.setAmount(existing.getAmount());
